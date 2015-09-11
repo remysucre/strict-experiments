@@ -113,5 +113,6 @@ main = do
 testParse p = 
   do [fp] <- getArgs
      fc <- readFile fp
+     print $ parse p "uk" fc
      let (Right pa) = parse p "uk" fc
      return pa

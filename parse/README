@@ -1,0 +1,4 @@
+run: 
+`cabal run [logfile]`
+output:
+pop gen avgscore
