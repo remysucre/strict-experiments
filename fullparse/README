@@ -1,0 +1,2 @@
+run: runhaskell fpar.hs [logfile]
+NOTE: can output sort or original data. edit source to switch
