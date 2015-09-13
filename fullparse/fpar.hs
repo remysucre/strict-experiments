@@ -10,4 +10,4 @@ timev = sort . bitv
 main = do
   [fp] <- getArgs
   fc <- readFile fp
-  putStr $ unlines $ map show (bitv fc)
+  putStr $ unlines $ map show (timev fc)
