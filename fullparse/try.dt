@@ -1,0 +1,17 @@
+0d96364
+^git hash
+>>>>>>>>>>>>>>>START OPTIMIZATION>>>>>>>>>>>>>>>
+pop: 2
+gens: 2
+arch: 2
+Basetime is: 0.8799875400000019
+bits: 01000 time: 1.0156716889419184
+bits: 00100 time: 1.083749353996176
+
+bits: 01000 time: 1.1220800626335308
+bits: 00000 time: 1.1279712937754538
+bits: 01000 time: 1.0341162364639864
+bits: 00100 time: 1.1117884737322776
+
+done evolving!
+>>>>>>>>>>>>>>FINISH OPTIMIZATION>>>>>>>>>>>>>>>
