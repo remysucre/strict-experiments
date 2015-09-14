@@ -1,3 +1,5 @@
+set terminal pdf
+set output 'out.pdf'
 set title "gene search sorted by 1/score, recurse"
 set ylabel "1/time in seconds"
 set xlabel "genes in original order"
