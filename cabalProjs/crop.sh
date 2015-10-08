@@ -3,11 +3,11 @@ function crop ()
 {
   for file in ./*
   do
-    pdfcrop $file; pdfjoin *crop*
+    pdfcrop $file;
   done
 }
 
 for dir in ./*;
   do
-    (cd $dir; cd profile; crop);
+    (cd $dir; cd profile; rm !(*join*));
   done
