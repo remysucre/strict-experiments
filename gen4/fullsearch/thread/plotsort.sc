@@ -1,6 +1,6 @@
 set terminal pdf
 set output 'out.pdf'
-set title "full search sorted by 1/time, thread"
-set ylabel "1/time in seconds"
+set title "full search sorted by time, thread"
+set ylabel "time in seconds"
 set xlabel "unordered genes"
-plot 'threadover.data' using 1 with lines
+plot 'threadsort.data' using 1 with lines
