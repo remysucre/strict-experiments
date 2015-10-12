@@ -5,7 +5,7 @@ import Control.Monad
 
 main = do
     mv <- newMVar [1..1000]
-    upgraderThread mv 14000
+    upgraderThread mv 1400000
 
 upgraderThread :: MVar [Int] -> Int -> IO ()
 upgraderThread chanMVar 0 = do
