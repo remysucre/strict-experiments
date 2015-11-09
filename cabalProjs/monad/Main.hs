@@ -32,7 +32,7 @@ buildThunk n t = buildThunk (n - 1) (t >>= increaseThunk)
   where increaseThunk x = T (x, 1)
 
 thunk :: Thunk Int
-thunk = buildThunk 19999988 emptyThunk
+thunk = buildThunk 3999999 emptyThunk
 
 T (_, thunkCount) = thunk
 
